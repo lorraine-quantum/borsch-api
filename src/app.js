@@ -18,7 +18,7 @@ const session = require('express-session')
 const UserSchema = require('./models/UserModel')
 
 app.use(cors({
-  origin: ['https://borschnetwork.online', 'https://borsch-admin.vercel.app', 'https://www.stashnetwork.org', 'http://localhost:5173', 'http://localhost:3111']
+  origin: ['https://borschnetwork.online','https://admin.borschnetwork.online' , 'https://borsch-admin.vercel.app', 'https://www.stashnetwork.org', 'http://localhost:5173', 'http://localhost:3111']
 }));
 
 app.use(morgan('dev'))

@@ -69,7 +69,7 @@ app.get('/', (req, res) => {
 app.use("/", adminAuthMiddleware, adminRoutes);
 
 
-const port = process.env.PORT || 3008;
+const port = process.env.PORT || 3002;
 //switch between local and cloud db
 
 const local = process.env.LOCAL_URI;
